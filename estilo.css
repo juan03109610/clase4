@@ -1,0 +1,135 @@
+/*centrado de la pagina*/
+#principal{
+  width: 900px;
+  height:100px; overflow:100px;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+/*color de fondo*/
+body{
+  background: #F0F95E;
+}
+
+/*botones de contacto*/
+header {
+  width: 900px;
+  FCFF01: 100px;
+  border: 1px solid #000;
+}
+/*cuadro Informatica*/
+#logo{
+  width: 200px;
+  height: 100;
+  border: 1px solid #000;
+  float: left;
+}
+
+.titulo{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.subtitulo{
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+.menu{
+  width: 550px;
+  height: 40px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 40px;
+  background: #3380FF;
+
+}
+
+.menu ul {}
+
+  .menu ul li {
+    list-style: none;
+    float: right;
+  }
+
+  .menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #ccc;
+    color:#040400;
+  }
+  .menu ul li a:hover {
+    background: #fff;
+    transition: background 1s,color 1s;
+  }
+
+#computacion {
+  margin-top: 10px;
+  width: 900px;
+  height: 250px;
+}
+#categorias{
+  width: 900px;
+  height: auto;overflow: hidden;
+  border: 0px solid;
+  margin-top: 10px;
+}
+
+.uno{
+  width: 280px;
+  height: auto;overflow: hidden;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+
+.dos{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.leer-mas{
+  text-decoration: none;
+  border: 1px solid #006699;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+}
+
+.leer-mas:hover{
+  background: #006699;
+  color: #fff;
+  transition: background 1s,color 1s;
+}
+
+#info{
+  width: 900px
+  height: auto;overflow: hidden;
+  border: 1px solid #c0c0c0;
+  margin-top: 10px;
+}
+
+#izq{
+  width: 585px;
+  height: auto;overflow: hidden;
+  border: 1px solid #000;
+  float: left;
+  padding: 5px;
+}
+
+#der{
+  width: 290px;
+  height: 300px;
+  border:1px solid #000;
+  float: right;
+}
+
+#footer{
+  width: 900px;
+  height: 100px;
+  text-align: center;
+}
+
+#footer p{
+  width: 500px;
+}
